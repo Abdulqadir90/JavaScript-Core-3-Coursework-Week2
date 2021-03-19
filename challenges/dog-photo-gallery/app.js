@@ -13,7 +13,7 @@ function photoDogs() {
             }
         })
         .then(function (data) {
-                console.log('data', data);
+                console.log('data');
                 let dogImages = document.createElement("img");
                 let dogList = document.createElement("li");
                 dogList.className = "list";
@@ -24,7 +24,7 @@ function photoDogs() {
                 container.appendChild(dogList);
         })
         .catch((err) => {
-            console.log('Error', err);
+            console.log('Error');
         });
 }
 
