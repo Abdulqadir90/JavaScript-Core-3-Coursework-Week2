@@ -1,4 +1,8 @@
 body {
-  background-color: gray;
+  height: 100vh;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 50px;
+  background: linear-gradient(rgb(25, 68, 189), rgb(116, 127, 192));
 }
